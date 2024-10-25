@@ -1,0 +1,22 @@
+program Project8;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+var
+  x, y, z: Integer;
+  s: string;
+begin
+  x := 10;
+  y := 2;
+  z := x + y;
+  Writeln(z);
+
+  s := 'Introduction';
+  Writeln(s);
+  Readln;
+end.

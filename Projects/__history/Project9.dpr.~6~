@@ -1,0 +1,16 @@
+program Project9;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  SysUtils, Math;
+
+var
+  x: Integer;
+begin
+  x := Max(101, 100); // ‚Ç‚¿‚ç‚à“¯‚¶‚¾‚ÆƒGƒ‰[...
+  Writeln(x);
+  Readln;
+end.
